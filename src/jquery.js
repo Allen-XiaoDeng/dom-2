@@ -26,7 +26,6 @@ window.$ = window.jQuery = function (selectorOrTemplate) {
   //   api.oldApi = selectorOrArray.oldApi;
   return api;
 };
-
 // window.$ = window.jQuery;
 jQuery.fn = jQuery.prototype = {
   constructor: jQuery,
