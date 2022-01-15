@@ -37,7 +37,7 @@ jQuery.fn = jQuery.prototype = {
     if (node instanceof Element) {
       this.each((el) => node.appendChild(el));
     } else if (node.jquery === true) {
-      this.each((el) => node.get(0), appendChild(el));
+      this.each((el) => node.get(0).appendChild(el));
     }
   },
   append(children) {

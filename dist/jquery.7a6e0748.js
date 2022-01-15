@@ -177,8 +177,8 @@ jQuery.fn = jQuery.prototype = {
       });
     } else if (node.jquery === true) {
       this.each(function (el) {
-        return node.get(0);
-      }, appendChild(el));
+        return node.get(0).appendChild(el);
+      });
     }
   },
   append: function append(children) {
